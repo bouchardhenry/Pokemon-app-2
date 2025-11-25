@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://bouchardhenry.github.io/Pokemon-app",
+  "homepage": "https://bouchardhenry.github.io/Pokemon-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
