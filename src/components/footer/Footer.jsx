@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Footer.module.css"
 
 const Footer = () => {
@@ -6,7 +7,9 @@ const Footer = () => {
     return (
         <div className={styles["footer"]}>
             <p>⭐ Fan-made Pokédex • Data from PokéAPI • © 2025</p>
+            <Link to="/pokemons/151">
             <img src={mewImg} alt="pikachu image" />
+            </Link>
         </div>
     )
 }
