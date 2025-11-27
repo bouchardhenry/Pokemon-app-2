@@ -31,7 +31,7 @@ const PokemonDetails = () => {
     return (
       <div className={styles["error-div"]}>
         <p>Pokemon not found</p>
-        <div className="bredcrums">
+        <div className="breadcrums">
           <Link to="/pokemons">&#x3c; Go back</Link>
         </div>
       </div>
